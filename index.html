@@ -53,7 +53,8 @@
             <div class="container">
                 <!-- Portfolio Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+                    <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Parasite <a target="_blank" href="https://github.com/PRL-PRG/codedj-parasite" style="font-size:30px;color:rgb(51,49,70)"><i class="fab fa-github"></i></a></h2>
+                    <h5>Create and Download a Dataset</h5>
                 </div>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
@@ -61,52 +62,12 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Portfolio Grid Items-->
+
                 <div class="row justify-content-center">
-                    <!-- Portfolio Items-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="Log Cabin"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/circus.png" alt="Circus Tent"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/game.png" alt="Controller"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
-                        </div>
-                    </div>
+                    Parasite is a perpetual git & github scrapper that maintains a datastore of downloaded contents and continuously updates the items with new information as downloaded from the upstream sources. This repository consists of the updater application itself and a Rust library that can be used to read the datastore.
+                    
                 </div>
+                
             </div>
         </section>
         <!-- Portfolio Modal-->
@@ -276,7 +237,8 @@
             <div class="container">
                 <!-- About Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+                    <h2 class="page-section-heading d-inline-block text-white">Djanco <a target="_blank" href="https://github.com/PRL-PRG/djanco" style="font-size:30px;color:white"><i class="fab fa-github"></i></a></h2>
+                    <h5>Engine for Running Queries</h5>
                 </div>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
@@ -285,13 +247,9 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-                    </div>
+                <div class="row justify-content-center">
+                    A mostly-in-memory database with a query Rust interface. Handles user-written queries that are executed by the Djanco in-memory 
+                    database. For each query, Djanco determines the required portion of the datastore, it loads it and executes the query. Queries run with all project metadata in-memory while the content of the source code files remains on disk.
                 </div>
             </div>
         </section>
@@ -299,7 +257,8 @@
             <div class="container">
                 <!-- Contact Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Query Archive</h2>
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Query Archive <a target="_blank" href="https://github.com/PRL-PRG/codedj-query-archive" style="font-size:30px;color:rgb(51,49,70)"><i class="fab fa-github"></i></a></h2>
+                    <h5>where query receipts live</h5>
                 </div>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
@@ -307,21 +266,9 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Content-->
+                <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
-                    <div class="col-lg-4">
-                        <div class="d-flex flex-column align-items-center">
-                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
-                            <div class="text-muted">Phone</div>
-                            <div class="lead font-weight-bold">(555) 555-5555</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="d-flex flex-column align-items-center">
-                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
-                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:name@example.com">name@example.com</a>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -329,7 +276,8 @@
             <div class="container">
                 <!-- Contact Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Query Template</h2>
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">Query Template <a target="_blank" href="https://github.com/PRL-PRG/djanco-query-template" style="font-size:30px;color:rgb(51,49,70)"><i class="fab fa-github"></i></a></h2>
+                    <h5>A user query created from a template</h5>
                 </div>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
@@ -339,39 +287,33 @@
                 </div>
                 <!-- Contact Section Content-->
                 <div class="row justify-content-center">
-                    <div class="col-lg-4">
-                        <div class="d-flex flex-column align-items-center">
-                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
-                            <div class="text-muted">Phone</div>
-                            <div class="lead font-weight-bold">(555) 555-5555</div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="d-flex flex-column align-items-center">
-                            <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
-                            <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:name@example.com">name@example.com</a>
-                        </div>
-                    </div>
+                    <p>Create a query from our template. Just run </p>
+                </div>
+                <div class="row justify-content-center">
+                    <p style="font-family: monospace;background-color: cornsilk;"><span>cargo generate --git https://github.com/PRL-PRG/djanco-query-template --name my-query-crate</span></p>
                 </div>
             </div>
         </section>
         <footer class="footer text-center" id="contact">
             <div class="container">
+                <div class="row justify-content-center" style="margin-bottom:1em;">
+                    <h2>Developers</h2>
+                </div>
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">LOCATION</h4>
-                        <p class="pre-wrap lead mb-0">2215 John Daniel Drive
-Clark, MO 65243</p>
+                        <h4 class="mb-4">Jan Vitek</h4>
+                        <a href="mailto:j.vitek@neu.edu" class="pre-wrap lead mb-0">j.vitek@neu.edu</a>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="mb-4">Peta Maj</h4>
+                        <a href="mailto:majpetr@fit.cvut.cz" class="pre-wrap lead mb-0">majpetr@fit.cvut.cz</a>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="mb-4">ABOUT FREELANCER</h4>
-                        <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap</p>
+                        <h4 class="mb-4">Konrad Siek</h4>
+                        <a href="mailto:siekkonr@fit.cvut.cz" class="pre-wrap lead mb-0">siekkonr@fit.cvut.cz</a>
                     </div>
                 </div>
             </div>
